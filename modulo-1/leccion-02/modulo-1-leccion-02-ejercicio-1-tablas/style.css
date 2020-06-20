@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  width: 75%;
+  height: 100%;
+  padding: 20px;
+
+}
+
+th {
+    border: 1px solid grey;
+    background-color: #e6e6ff;
+}
+
+td {
+  border: 1px solid grey;
+}
+
+body {
+  background-color: white;
+  font-size: 14px;
+  font-family: Verdana;
+  text-align: center;
+}
+
+.cabecera {
+    background-color: #9999ff;
+}

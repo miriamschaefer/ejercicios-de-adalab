@@ -1,0 +1,32 @@
+.contenedor {
+  height: 100vh;
+  border: 2px solid red;
+  background-image: url("https://i.pinimg.com/originals/18/a0/fe/18a0feb8ca0fdb0f8f242f0eb25d6e83.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  animation-name: intro;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes intro {
+  from {
+    transform: translate(0%, -800%);
+  }
+
+  to {
+    transform: translate(0%, 50%);
+  }
+}

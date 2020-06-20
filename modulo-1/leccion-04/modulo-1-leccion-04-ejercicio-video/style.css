@@ -1,0 +1,36 @@
+.box {
+  padding-top: 25px;
+  /* height: 50px;
+  width: 50px; */
+  background-color: turquoise;
+  text-align: center;
+  font-size: 36px;
+}
+/* flex */
+
+.container {
+  width: 500px;
+  height: 200px;
+  background-image: url("https://i.ya-webdesign.com/images/graph-paper-background-png-8.png");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 5px solid pink;
+}
+.box1 {
+  flex-grow: 2;
+}
+.box2 {
+  flex-grow: 1;
+}
+
+.box3 {
+  flex-grow: 1;
+}

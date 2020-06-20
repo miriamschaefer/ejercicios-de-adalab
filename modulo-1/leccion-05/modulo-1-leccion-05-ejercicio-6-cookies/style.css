@@ -1,0 +1,13 @@
+.catMain {
+  position: relative;
+}
+
+.cookies {
+  background-color: yellow;
+  height: 100px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

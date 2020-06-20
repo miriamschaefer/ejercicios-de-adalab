@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: turquoise;
+    margin: 20px;
+
+}
+
+div {
+    display: inline-block;
+}
+
+.bloque2 {
+    display: inline;
+}
+
+
+.bloque3 {
+    display: inline;
+}

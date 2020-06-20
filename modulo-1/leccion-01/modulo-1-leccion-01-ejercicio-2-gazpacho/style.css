@@ -1,0 +1,22 @@
+h1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+body {
+    background-color: #f3f4f5;
+    margin: 80px;
+}
+
+p {
+    color: #757575;
+    font-family: Georgia;
+    font-size: 18px;
+}
+li {
+    color: #757575;
+    font-family: Georgia;
+    font-size: 18px;
+    margin-left: 30px;
+}

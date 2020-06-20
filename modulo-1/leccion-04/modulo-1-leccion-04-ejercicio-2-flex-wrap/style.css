@@ -1,0 +1,17 @@
+.contenedor-padre {
+  width: 800px;
+  border-color: black;
+  border: 1px solid;
+  background-color: turquoise;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.elementos {
+  height: 100px;
+  width: 200px;
+  background-color: pink;
+  border: 1px solid deeppink;
+  padding: 4px;
+}

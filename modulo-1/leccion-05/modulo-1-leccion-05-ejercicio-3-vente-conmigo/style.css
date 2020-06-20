@@ -1,0 +1,21 @@
+.catHeader {
+  background-color: purple;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 990;
+}
+
+.catMain {
+  position: relative;
+  top: 100px;
+  /* z-index: 10; */
+}
+
+/* .cookies {
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
+  position: fixed;
+} */

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 5px;
+}
+body {
+  max-width: 960px;
+  font-family: Helvetica;
+  text-align: center;
+}
+header {
+  background-color: coral;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.aside-left {
+  background-color: yellow;
+  width: 25%;
+}
+
+.main-column {
+  width: 50%;
+  background-color: mediumturquoise;
+  text-align: center;
+  padding: 15px;
+}
+
+.aside-right {
+  background-color: pink;
+  width: 25%;
+}
+
+footer {
+  background-color: mediumspringgreen;
+  width: 100%;
+}

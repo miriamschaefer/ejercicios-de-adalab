@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+body {
+  max-width: 860px;
+  font-family: Roboto;
+}
+
+.total {
+  border: 5px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* IZQUIERDA */
+
+.bloque-izq {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cuadro-gris {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #cacaca;
+}
+
+.datos {
+  border: 1px solid magenta;
+}
+
+.botones {
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boton-gris {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #cacaca;
+  margin: 5px;
+}
+
+.boton-blanco {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #cacaca;
+  margin: 5px;
+}
+
+/* DERECHA */
+
+.bloque-derecha {
+  border: solid 1px blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.puntuacion {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #cacaca;
+}

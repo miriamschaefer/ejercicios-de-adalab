@@ -1,0 +1,26 @@
+main {
+  /* max-width: 768px; */
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.catTitle {
+  font-style: bold;
+  font-size: 32px;
+}
+
+@media all and (min-width: 768px) {
+  main {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  main p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 20vh 60vh 20vh;
+}
+
+.header {
+  background-color: turquoise;
+  grid-column: span 6;
+}
+
+.main {
+  background-color: pink;
+  grid-column: span 5;
+}
+
+.aside {
+  background-color: lightcoral;
+  grid-column: auto;
+}
+
+.footer {
+  background-color: peru;
+  grid-column: span 6;
+}
