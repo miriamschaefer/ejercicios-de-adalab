@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.success {
+  padding-left: 20px;
+  border: 2px solid forestgreen;
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.error {
+  padding-left: 20px;
+  border: 2px solid darkred;
+  background-color: lightcoral;
+  color: darkred;
+}
+
+.warning {
+  padding-left: 20px;
+  border: 2px solid orange;
+  background-color: lightyellow;
+  color: orange;
+}

@@ -1,0 +1,12 @@
+.color-m {
+  background-color: lightcoral;
+}
+.color-r {
+  background-color: rgb(205, 169, 226);
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30%;
+}
