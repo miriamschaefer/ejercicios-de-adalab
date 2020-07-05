@@ -1,0 +1,10 @@
+body {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: rgb(250, 206, 212);
+  font-family: 'Roboto', sans-serif;
+}
+
+.completed {
+  text-decoration: line-through;
+}
