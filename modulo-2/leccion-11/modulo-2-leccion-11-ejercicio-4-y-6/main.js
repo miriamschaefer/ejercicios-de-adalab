@@ -2,7 +2,6 @@
 
 let username = document.querySelector('.js-input');
 let userLastName = document.querySelector('.js-input-surname');
-
 const paragraph = document.querySelector('.js-p');
 
 function saveUsername() {

@@ -27,4 +27,11 @@ function findCharacter() {
       characterList.innerHTML = content;
     });
 }
+
+//ejercicio 8
+
+function saveSearch() {
+  localStorage.setItem('userSearch', inputName.value);
+}
+
 button.addEventListener('click', findCharacter);
