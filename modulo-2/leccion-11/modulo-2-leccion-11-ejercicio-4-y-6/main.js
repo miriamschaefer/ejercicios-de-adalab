@@ -8,6 +8,8 @@ function saveUsername() {
   // esto imprime la info en pantalla
   paragraph.innerHTML = `${username.value}  ${userLastName.value}`;
 
+  console.log(username.value);
+
   let userData = {
     // esto guarda la info en un objeto
     name: username.value,
